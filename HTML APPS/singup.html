@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+
+<body>
+    <center>
+        <!---->
+        <h1><font color = "red" >Please Sign Up Here!!!</font></h1>
+    <table border="2">
+        <tr>
+            <td><label>Enter Username:</label></td>
+            <td><input type="username" name="username"></td>
+        </tr>
+        <tr>
+            <td><label>Enter Password:</label></td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td><label>Confirm password:</label></td>
+            <td><input type="password" name="confirm password"></td>
+        </tr>
+        <tr>
+            <td><label>Select Gender:</label></td>
+            <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female</td>
+        </tr>
+        <tr>
+            <td><label>Enter DOB:</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Enter Address:</label></td>
+            <td><textarea id="Address" name="Address" rows="10" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Select Qualification:</label></td>
+            <td><select name="Qualification" id="qualification">
+                    <option value="select">Select</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Undergraduate">Undergraduate</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td><label>Choose your Skills:</label></td>
+            <td><select name="skills" id="" multiple>
+                    <option value="Java">Java</option>
+                    <option value="HTML5">HTML5</option>
+                    <option value="CSS3">CSS3</option>
+                    <option value="JavaScript">JavaScript</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td><label>Preferred Shift:</label></td>
+            <td><input type="checkbox" name="shift" value="DayShift">DayShift
+                <input type="checkbox" name="shift" value="NightShift">NightShift
+                <input type="checkbox" name="shift" value="DayShift/Nightshift">DayShift/SHIFT</td>
+        </tr>
+        <tr>
+            <td><label>Upload your resume:</label></td>
+            <td><input type="file" id="file" name="file"></td>
+        </tr>
+        </table>
+        </center>
+        <center>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </center>
+    
+</body>
+
+</html>
+
